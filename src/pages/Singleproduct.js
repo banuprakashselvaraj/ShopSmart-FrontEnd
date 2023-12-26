@@ -110,8 +110,10 @@ const Singleproduct = () => {
                           We ship all US domestic orders within <b>5-10 business days!</b></p>
                     </div> <div className="d-flex gap-10 align-items-center my-3">
                       <h3 className="product-heading">Product Link:</h3>
-                      <button href="javascript:void(0)" onClick={() =>{copyToClipboard("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg");}}>
+                      <button>
+                      <a>href="javascript:void(0)" onClick={() =>{copyToClipboard("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg");}}
                         Copy Product Link
+                      </a>
                       </button>
                     </div>
                   </div>
