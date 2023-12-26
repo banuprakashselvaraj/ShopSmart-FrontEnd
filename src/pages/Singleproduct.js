@@ -12,7 +12,7 @@ import Color from "../components/Color"
 import Container from '../components/Container';
 const Singleproduct = () => {
   const props = {width: 400, height: 600, zoomWidth: 600, img:"https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"};
-    const [orderedProduct,setorderedProduct]=useState(true);
+    const [orderedProduct]=useState(true);
     const copyToClipboard = (text) => {
       console.log('text', text)
       var textField = document.createElement('textarea')

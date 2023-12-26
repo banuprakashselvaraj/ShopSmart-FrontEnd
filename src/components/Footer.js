@@ -46,16 +46,16 @@ const Footer = () => {
                 shopsmartcbe@gmail.com
               </a>
               <div className="social_icons d-flex align-items-center gap-30 mt-4">
-               <a className="text-white" href="#">
+               <a className="text-white" href="linkedin.com">
                  <BsLinkedin className="fs-4"/>
                 </a>
-                <a className="text-white" href="#">
+                <a className="text-white" href="instagram.com">
                  <BsInstagram className="fs-4"/>
                 </a>
-                <a className="text-white" href="#">
+                <a className="text-white" href="github.com">
                  <BsGithub className="fs-4"/>
                 </a>
-                <a className="text-white" href="#">
+                <a className="text-white" href="youtube.com">
                 <BsYoutube className="fs-4"/>
                 </a>
               </div>
