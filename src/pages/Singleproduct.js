@@ -13,15 +13,6 @@ import Container from '../components/Container';
 const Singleproduct = () => {
   const props = {width: 400, height: 600, zoomWidth: 600, img:"https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"};
     const [orderedProduct]=useState(true);
-    const copyToClipboard = (text) => {
-      console.log('text', text)
-      var textField = document.createElement('textarea')
-      textField.innerText = text
-      document.body.appendChild(textField)
-      textField.select()
-      document.execCommand('copy')
-      textField.remove()
-    }
   return (
   <><Meta title={"Product Name"} />
   <BreadCrumb title="Product Name" />
