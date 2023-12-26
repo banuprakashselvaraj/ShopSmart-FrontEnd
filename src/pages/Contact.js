@@ -19,6 +19,7 @@ const Contact = () => {
            className="border-0 w-100"
             allowFullScreen="" 
             loading="lazy"
+            title="google-location"
             referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </div>

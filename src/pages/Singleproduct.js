@@ -33,16 +33,16 @@ const Singleproduct = () => {
               </div>
               <div className="other-product-image d-flex flex-wrap gap-15">
                <div>
-                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid"/>
+                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid" alt=""/>
                </div>
                <div>
-                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid"/>
+                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid" alt=""/>
                </div>
                <div>
-                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid"/>
+                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid"  alt=""/>
                </div>
                <div>
-                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid"/>
+                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg" className="img-fluid"  alt=""/>
                </div>
               </div>
             </div>
@@ -99,10 +99,10 @@ const Singleproduct = () => {
                     </div>
                     <div className="d-flex align-items-center gap-15">
                       <div>
-                        <a href=""><TbGitCompare className="fs-5 me-2"/>Add to Compare</a>
+                        <a href="/compare"><TbGitCompare className="fs-5 me-2"/>Add to Compare</a>
                       </div>
                       <div>
-                        <a href=""><AiOutlineHeart className="fs-5 me-2"/>Add to Wishlist</a>
+                        <a href="/wishlist"><AiOutlineHeart className="fs-5 me-2"/>Add to Wishlist</a>
                       </div>
                     </div>
                     <div className="d-flex gap-10 flex-column my-3">
@@ -110,9 +110,9 @@ const Singleproduct = () => {
                           We ship all US domestic orders within <b>5-10 business days!</b></p>
                     </div> <div className="d-flex gap-10 align-items-center my-3">
                       <h3 className="product-heading">Product Link:</h3>
-                      <a href="javascript:void(0)" onClick={() =>{copyToClipboard("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg");}}>
+                      <button href="javascript:void(0)" onClick={() =>{copyToClipboard("https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg");}}>
                         Copy Product Link
-                      </a>
+                      </button>
                     </div>
                   </div>
               </div>
@@ -147,7 +147,7 @@ const Singleproduct = () => {
                     {
                         orderedProduct &&(
                             <div>
-                        <a className="text-dark text-decoration-underline" href="">Write a Review</a>
+                        <a className="text-dark text-decoration-underline" href="/review">Write a Review</a>
                     </div>
                         )
                     }
